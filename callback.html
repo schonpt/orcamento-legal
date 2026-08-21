@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>A redirecionar para a aplicação...</title>
+</head>
+<body>
+<p>A redirecionar para a aplicação Orcamento...</p>
+<script>
+  var q = window.location.search || "";
+  window.location.replace("financeapp://auth-callback" + q);
+</script>
+</body>
+</html>
